@@ -34,7 +34,7 @@ app.route('/API/MathManager/addTwoNumbers')
     .post(function(req, res) {
       var number1 = req.body.number1;
       var number2 = req.body.number2;
-      res.json({ result: (number1 + number2  ) });
+      res.json({ result: ( 2000 ) });
     });
 app.route('/API/MathManager/divideTwoNumbers')
     .post(function(req, res) {
